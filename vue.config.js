@@ -4,7 +4,7 @@ module.exports = {
       stylus: {
         'resolve url': true,
         'import': [
-          './src/theme'
+          './src/style/theme'
         ]
       }
     }

@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Layout title="首页">
+    <template #view>
+      <div class="home">
+        <cube-button @click="navigateToMaster">master</cube-button>
+      </div>
+    </template>
+  </Layout>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
+  export default {
+    methods: {
+      navigateToMaster() {
+        this.$navigate('master');
+      }
+    }
   }
-}
 </script>
