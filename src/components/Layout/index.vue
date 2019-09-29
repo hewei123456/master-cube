@@ -38,31 +38,32 @@
 
 <style lang="stylus" scoped>
   .container-wrapper
-    display: flex
-    flex-direction: column
-    height: calc(100vh)
+    display flex
+    flex-direction column
+    height calc(100vh)
 
     .navbar-wrapper
       padding 8px 0
       line-height 28px
-      border-bottom: 1px solid #eee
+      border-bottom 1px solid #eee
 
       .navbar-title
-        position: relative
-        font-size: 18px
-        text-align: center
+        position relative
+        font-weight bold
+        font-size 18px
+        text-align center
 
         .nav-left
-          position: absolute
-          left: 20px
-          top: 0
-          width: 130px
-          display: flex
-          justify-content: space-between
+          position absolute
+          left 20px
+          top 0
+          width 130px
+          display flex
+          justify-content space-between
 
     .container
-      flex: 1
-      overflow-y: scroll
+      flex 1
+      overflow-y scroll
       font-size 16px
 
       .view-wrapper

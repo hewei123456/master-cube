@@ -1,0 +1,51 @@
+{
+  "id": "1440424",
+  "name": "master",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1249003",
+      "name": "博士帽",
+      "font_class": "boshimao1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3846962",
+      "name": "博士帽",
+      "font_class": "boshimao",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "3859971",
+      "name": "专业",
+      "font_class": "zhuanye",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7037111",
+      "name": "学习中心",
+      "font_class": "xuexizhongxin",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "7741472",
+      "name": "信息",
+      "font_class": "huabanfuben",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "8316738",
+      "name": "学校",
+      "font_class": "xuexiao",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}
