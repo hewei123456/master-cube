@@ -50,7 +50,7 @@
       .navbar-title
         position relative
         font-weight bold
-        font-size 18px
+        font-size 15px
         text-align center
 
         .nav-left
@@ -64,7 +64,7 @@
     .container
       flex 1
       overflow-y scroll
-      font-size 16px
+      font-size 14px
 
       .view-wrapper
         box-sizing border-box

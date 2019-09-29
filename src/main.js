@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import './axios'
 import './cube-ui'
 import App from './App.vue'
 import router from './router'

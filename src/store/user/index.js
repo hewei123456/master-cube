@@ -1,7 +1,5 @@
 const state = {
-  userInfo: {},
-  authorization: '',
-  visible: false
+  userInfo: {}
 };
 
 const actions = {};
@@ -12,12 +10,6 @@ const mutations = {
   },
   clearAuthorization(state) {
     state.authorization = '';
-  },
-  showUserInfo(state) {
-    state.visible = true;
-  },
-  hideUserInfo(state) {
-    state.visible = false;
   }
 };
 
