@@ -1,11 +1,3 @@
-/*---生产---*/
-export const SUPER = '83';
-export const MENBER = '84';
-
-/*---测试---*/
-// export const SUPER = '84';
-// export const MENBER = '80';
-
 /*------院校隶属------*/
 export const collegeAttachDict = {
   '1': {
@@ -24,8 +16,7 @@ export const collegeAttachDict = {
 
 export const collegeAttachList = Object.keys(collegeAttachDict).map(key => ({
   value: key,
-  label: collegeAttachDict[key].name,
-  checked: false
+  label: collegeAttachDict[key].name
 }));
 
 /*------院校特性-------*/
@@ -55,8 +46,7 @@ export const collegePropertyDict = {
 
 export const collegePropertyList = Object.keys(collegePropertyDict).map(key => ({
   value: key,
-  label: collegePropertyDict[key].name,
-  checked: false
+  label: collegePropertyDict[key].name
 }));
 
 /*-------省份-------*/
@@ -190,7 +180,6 @@ export const provinceDict = {
 export const provinceList = Object.keys(provinceDict).map(key => ({
   value: key,
   label: provinceDict[key].name,
-  checked: false,
   type: provinceDict[key].type
 }));
 
@@ -239,8 +228,7 @@ export const collegeTypeDict = {
 
 export const collegeTypeList = Object.keys(collegeTypeDict).map(key => ({
   value: key,
-  label: collegeTypeDict[key].name,
-  checked: false
+  label: collegeTypeDict[key].name
 }));
 
 /*--------适合人群--------*/
@@ -261,8 +249,7 @@ export const suitableDict = {
 
 export const suitableList = Object.keys(suitableDict).map(key => ({
   value: key,
-  label: suitableDict[key].name,
-  checked: false
+  label: suitableDict[key].name
 }));
 
 /*------专业特色------*/
@@ -289,8 +276,7 @@ export const featureDict = {
 
 export const featureList = Object.keys(featureDict).map(key => ({
   value: key,
-  label: featureDict[key].name,
-  checked: false
+  label: featureDict[key].name
 }));
 
 /*-----------------------------*/

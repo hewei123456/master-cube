@@ -9,11 +9,9 @@
       </div>
     </header>
     <section class='container'>
-      <cube-scroll>
-        <div class="view-wrapper">
-          <slot name="view"></slot>
-        </div>
-      </cube-scroll>
+      <div :class="hasPadding ? 'view-wrapper' : ''">
+        <slot name="view"></slot>
+      </div>
     </section>
   </div>
 </template>
@@ -21,6 +19,12 @@
   import {mapState, mapMutations} from 'vuex'
 
   export default {
+    props: {
+      hasPadding: {
+        type: Boolean,
+        default: true
+      }
+    },
     computed: {
       ...mapState({
         pages: state => state.pages,

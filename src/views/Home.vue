@@ -2,8 +2,6 @@
   <Layout title="首页">
     <template #view>
       <div class="home">
-        <!--<cube-button @click="navigateToMaster">master</cube-button>-->
-
         <ul class="panel clearfix">
           <li class="panel-item left" v-for="item in panelList" :key="item.icon">
             <div class="panel-item-inner" @click="navigateToMaster(item.name)">
